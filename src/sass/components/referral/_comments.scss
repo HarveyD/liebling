@@ -1,0 +1,12 @@
+.comments-container,
+.affiliate-disclaimer {
+  @include respond-to("medium") {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+}
+
+.affiliate-disclaimer {
+  font-size: 14px;
+  margin-top: 42px;
+}
